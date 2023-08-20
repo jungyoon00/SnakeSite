@@ -1,0 +1,62 @@
+.invisible {
+    display: none;
+}
+
+p {
+    text-align: center;
+}
+
+p > label {
+    font-size: medium;
+    font-family: Helvetica;
+    font-weight: 700;
+}
+
+p > input {
+    font-size: medium;
+    font-family: Helvetica;
+    font-weight: 700;
+    border: none;
+    width: 40px;
+}
+
+#score-board {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#score-board > span {
+    font-size: medium;
+    font-family: Helvetica;
+    font-weight: 700;
+}
+
+#status {
+    color: #BB2525;
+    text-align: center;
+    font-size: medium;
+    font-family: Helvetica;
+    font-weight: 700;
+}
+
+#ui {
+    text-align: center;
+}
+
+#ui > canvas {
+    border: 1px solid black;
+    border-radius: 7px;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+
+#bottom {
+    text-align: center;
+}
+
+#bottom > button {
+    border: none;
+    background-color: #BB2525;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
